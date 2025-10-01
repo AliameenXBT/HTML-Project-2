@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+.banner{
+    background-image: url(dev\ paper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.navbar{
+    display: flex;
+    margin-left: 20px;
+    color: white;
+    display: inline;
+}
+
+.navbar h3{
+    margin-left: 2rem;
+}
+
+.navbar ul{
+    justify-content: space-between;
+    margin-left: 70rem;
+    margin-bottom: 5px;
+}
+
+.navbar li{
+    padding-right: 2rem;
+}
+
+section{
+    margin-top: 10rem;
+    margin-left: 5rem;
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.middle{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    display: flex;
+}
+
+.middle img{
+    border-radius: 10px;
+    height: 600px;
+    width: 450px;
+}
+
+.bio{
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+
+.bio h3{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bio h6{
+    font-size: larger;
+    font-weight: 100;
+    text-align: left;
+}
+
+footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 20px;
+}
+
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  color: #4CAF50;     /* link color */
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  color: #fff;        /* hover effect */
+}
